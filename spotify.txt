@@ -1,0 +1,7 @@
+spotify
+client id: 92b2b4d3e8a44ecf8d217de7275b76a4
+secret: 6bd91dbcde4f443a851e22d2ac994c16
+
+last.fm
+api = c3e6e830225eb531010bf8148927f167
+secret = a41aedea8e51cc2183e103194488c26c
