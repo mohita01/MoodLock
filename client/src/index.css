@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, #1db95433, transparent 35%),
+    radial-gradient(circle at bottom right, #6c5ce733, transparent 35%),
+    #080808;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 50px 24px;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  color: #b3b3b3;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+}
+
+.card {
+  background: rgba(24, 24, 24, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+.now-playing {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.album {
+  width: 190px;
+  height: 190px;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55);
+}
+
+.label {
+  color: #1db954;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.track-title {
+  font-size: 34px;
+  margin: 8px 0;
+}
+
+.artist {
+  color: #b3b3b3;
+  font-size: 18px;
+}
+
+.mood {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-weight: 800;
+  color: #111;
+}
+
+.tags {
+  margin-top: 14px;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.status {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.button {
+  background: #1db954;
+  color: #000;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.04);
+  background: #1ed760;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.song-item {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 14px 16px;
+  border-radius: 16px;
+}
+
+.song-item b {
+  display: block;
+}
+
+.song-item span {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.empty {
+  text-align: center;
+  padding: 50px;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .now-playing {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+}
