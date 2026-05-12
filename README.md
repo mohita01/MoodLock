@@ -41,8 +41,6 @@ VITE_SUPABASE_ANON_KEY=sb_publishable_W7bLPiT0jV32rot6E_MmVg_tCU2x3pX
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### 🏠 Home Screen
 ![Home Screen](./screenshots/moodlockhome.png)
 
