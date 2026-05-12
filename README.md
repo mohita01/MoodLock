@@ -37,9 +37,14 @@ VITE_LASTFM_API_KEY=your_lastfm_api_key
 
 ## 📸 Screenshots
 
-![Home Screen](C:\Users\mohit\projects\MoodLock\moodlockhome.png)
+## 📸 Screenshots
 
-![Queue Screen](C:\Users\mohit\projects\MoodLock\moodlockqueue.png)
+### 🏠 Home Screen
+![Home Screen](./screenshots/moodlockhome.png)
 
-![Spotify Queue Screen](C:\Users\mohit\projects\MoodLock\screenshots/spotifyqueue.png)
+### 🎧 Queue Screen
+![Queue Screen](./screenshots/moodlockqueue.png)
+
+### 🎵 Spotify Queue Screen
+![Spotify Queue Screen](./screenshots/spotifyqueue.png)
 
