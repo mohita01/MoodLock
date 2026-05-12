@@ -29,9 +29,13 @@ MoodLock Queue is a Spotify-powered web app that automatically maintains a consi
 
 ##🤖Environmental Variables
 
-VITE_SPOTIFY_CLIENT_ID=your_spotify_client_id
+VITE_SPOTIFY_CLIENT_ID=92b2b4d3e8a44ecf8d217de7275b76a4
 
-VITE_LASTFM_API_KEY=your_lastfm_api_key
+VITE_LASTFM_API_KEY=c3e6e830225eb531010bf8148927f167
+
+VITE_SUPABASE_URL=https://zahxqfgjkdbtgdunjltu.supabase.co
+
+VITE_SUPABASE_ANON_KEY=sb_publishable_W7bLPiT0jV32rot6E_MmVg_tCU2x3pX
 
 ---
 
