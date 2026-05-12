@@ -33,4 +33,13 @@ VITE_SPOTIFY_CLIENT_ID=your_spotify_client_id
 
 VITE_LASTFM_API_KEY=your_lastfm_api_key
 
+---
+
+## 📸 Screenshots
+
+![Home Screen](./screenshots/moodlockhome.png)
+
+![Queue Screen](./screenshots/moodlockqueue.png)
+
+![Spotify Queue Screen](./screenshots/spotifyqueue.png)
 
